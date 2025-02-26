@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://debcs0pev0h30"]
+
+[ext_resource type="Script" path="res://scenes/questions/category_button.gd" id="1_8yyui"]
+[ext_resource type="Theme" uid="uid://lo17cxaf24xy" path="res://themes/theme.tres" id="1_wvytw"]
+
+[node name="CategoryButton" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+theme = ExtResource("1_wvytw")
+text = "Color"
+script = ExtResource("1_8yyui")

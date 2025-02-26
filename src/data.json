@@ -1,0 +1,307 @@
+{
+    "round0": {
+        "name": "Round 0",
+        "base": 1,
+        "multiplier": 1,
+        "columns": [
+            {
+                "name": "Sort it Out",
+                "description": "Select the options that matches your team's category",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "This is the answer"
+                    },
+                    {
+                        "type": "category",
+                        "question": "This is the question",
+                        "categories": {
+                            "left": "category0",
+                            "right": "category1"
+                        },
+                        "choices": {
+                            "choice0": "left",
+                            "choice1": "left",
+                            "choice2": "left",
+                            "choice3": "left",
+                            "choice4": "right",
+                            "choice5": "right",
+                            "choice6": "right",
+                            "choice7": "right",
+                            "choice8": null,
+                            "choice9": null,
+                            "choice10": null,
+                            "choice11": null,
+                            "choice12": null,
+                            "choice13": null,
+                            "choice14": null,
+                            "choice15": null
+                        }
+                    },
+                    {
+                        "type": "zoom",
+                        "question": "This is the question",
+                        "filename": ""
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "This is the answer"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "This is the answer"
+                    }
+                ]
+            },
+            {
+                "name": "The Price is Right",
+                "description": "Guess the price of the item without going over",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "description": "Styled in a straight leg silhouette with a high waist, these jeans are made rfom a cotton stretch blend for easy, comfortable wear.",
+                        "question": "Calvin Klein Women's Jeans",
+                        "answer": "$118.00"
+                    },
+                    {
+                        "type": "trivia",
+                        "description": "With the Playstation 5 Pro console, game creators can enhance their games with features like advanced ray tracing, super sharp image clarity for your 4k TV, and high frame rate gameplay.",
+                        "question": "Playstation 5 Pro",
+                        "answer": "$959.99"
+                    },
+                    {
+                        "type": "trivia",
+                        "description": "This Graceful PM hobo in classic Monogram canvas is a lightweight, roomy bag to carry every day. Natural cowhide leather detailing and golden hardware add a refined touch.",
+                        "question": "Louis Vuitton Graceful PM bag",
+                        "answer": "$2380.00"
+                    },
+                    {
+                        "type": "trivia",
+                        "description": "The amplifier of life, elevating every moment. Seamless motion invigorates the heart. Superior craftsmanship excites the senses.",
+                        "question": "2022 Rolls Royce Ghost",
+                        "answer": "$369,998.00"
+                    },
+                    {
+                        "type": "trivia",
+                        "description": "A trilofy of epic fantasy adventure films directed by Peter Jackson, based on the novels by J. R. R. Tolkien.",
+                        "question": "Lord of the Rings Trilogy",
+                        "answer": "$281 million"
+                    }
+                ]
+            },
+            {
+                "name": "Say What?",
+                "description": "Correctly pronounce the word",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "Draught",
+                        "answer": "draft (a cold wind)"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "Synecdoche",
+                        "answer": "si-nek-duh-kee (figure of speech where a part is used for the whole)"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "Worcestershire",
+                        "answer": "wuh-stir-sure"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "Schadenfreude",
+                        "answer": "sha-den-froy-de (pleasure derived from the misforune of others)"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "Isthmus",
+                        "answer": "is-muhs (narrow strip of land surrounded on both sides by water"
+                    }
+                ]
+            },
+            {
+                "name": "nm, wbUI?",
+                "description": "Guess the video game the GUI is from",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Persona 5"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "PlateUp!"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Monster Hunter World"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "The Forest"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Planet Crafter"
+                    }
+                ]
+            },
+            {
+                "name": "Uhh, Zoom Out, Please",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Apple"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Calgary Tower"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Dalmation"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Foot"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "This is the question",
+                        "answer": "Bellybutton"
+                    }
+                ]
+            }
+        ]
+    },
+    "round1": {
+        "name": "Round 2",
+        "base": 1,
+        "multiplier": 2,
+        "columns": [
+            {
+                "name": "Before and After",
+                "description": "Create a word or phrase merging the two phrases",
+                "questions": []
+            },
+            {
+                "name": "Bumper Stumpers",
+                "description": "Guess the idiom or phrase based on the bumper sticker",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "SKUB DO",
+                        "answer": "Sloppy Jo"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "2NDBAA",
+                        "answer": "Second Base"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "AWF10L8",
+                        "answer": "Often late"
+                    },
+                    {
+                        "type": "trivia",
+                        "hint": "A flirty man",
+                        "question": "OUQTPI",
+                        "answer": "Oh, you cutie pie"
+                    },
+                    {
+                        "type": "trivia",
+                        "hint": "A military man",
+                        "question": "ATEE",
+                        "answer": "At ease"
+                    }
+                ]
+            },
+            {
+                "name": "Dude, You're So Old!",
+                "description": "Guess the name and function of the archaic technology",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "",
+                        "answer": "Cock of King Henry the VIII"
+                    }
+                ]
+            },
+            {
+                "name": "Dead, Canadian, Both, Neither",
+                "description": "Guess which category the clue falls into",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "Trump, Hitler, Both, Neither: 'The victor will never be asked if he told the truth'",
+                        "answer": "Hitler"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "IKEA Product, Death Metal Band: Myrkskog, Drottnar",
+                        "answer": "Death Metal Band, Death Metal Band"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "Dead, Canadian, Both, Neither: Bob Dylan, Elon Musk, Pierre Trudeau",
+                        "answer": "Neither, Canadian, Both"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "Pokemon, Egyptian God, Medication: Arensnuphis, Cymbalta, Renpetneferet, Stakataka, Oricorio",
+                        "answer": "Egyptian God, Medication, Egyptian God, Pokemon, Pokemon"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "Species, Gregorian Chant, Motto: Equus Asinus, Semper Paratus, Felis Catus, Agnus Dei, Pro Valore",
+                        "answer": "Species (donkey), Motto (always ready), Species (cat), Gregorian Chant, Motto (for valour)"
+                    }
+                ]
+            },
+            {
+                "name": "What's My Line?",
+                "description": "Each team can ask yes or no questions, and guess the job",
+                "questions": [
+                    {
+                        "type": "trivia",
+                        "question": "What's his line?",
+                        "answer": "Fisherman"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "What's his line?",
+                        "answer": "Hockey Goalie"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "What's his line?",
+                        "answer": "Voice actor of Donald Duck"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "What's his line?",
+                        "answer": "Pilates Instructor"
+                    },
+                    {
+                        "type": "trivia",
+                        "question": "What's his line?",
+                        "answer": "Puzzlemaster of Crosswords at the NYT"
+                    }
+                ]
+            }
+        ]
+    }
+}

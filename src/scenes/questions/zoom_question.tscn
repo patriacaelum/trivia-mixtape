@@ -1,0 +1,99 @@
+[gd_scene load_steps=4 format=3 uid="uid://6d35hek6vq0b"]
+
+[ext_resource type="PackedScene" uid="uid://cvv6iv6ohm2qk" path="res://scenes/questions/header_container.tscn" id="1_m8066"]
+[ext_resource type="Script" path="res://scenes/questions/zoom_question.gd" id="1_y30h6"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_33iic"]
+
+[node name="ZoomQuestion" type="CanvasLayer"]
+script = ExtResource("1_y30h6")
+
+[node name="Background" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.309804, 0.309804, 0.309804, 1)
+
+[node name="HeaderContainer" parent="." instance=ExtResource("1_m8066")]
+unique_name_in_owner = true
+offset_left = -53.0
+offset_right = 53.0
+
+[node name="BackButton" type="Button" parent="."]
+unique_name_in_owner = true
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+offset_right = 45.0
+grow_vertical = 0
+text = "Back"
+
+[node name="QuestionContainer" type="VBoxContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -10.5
+offset_right = 4.0
+offset_bottom = 10.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="QuestionLabel" type="Label" parent="QuestionContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Question"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="QuestionContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="QuestionContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="ShowButton" type="Button" parent="QuestionContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Show"
+
+[node name="ImageContainer" type="AspectRatioContainer" parent="QuestionContainer/VBoxContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(640, 480)
+layout_mode = 2
+
+[node name="ImageTexture" type="TextureRect" parent="QuestionContainer/VBoxContainer/ImageContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = SubResource("PlaceholderTexture2D_33iic")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="ZoomSlider" type="HSlider" parent="QuestionContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+min_value = 10.0
+value = 90.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(640, 480)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -320.0
+offset_top = -213.0
+offset_right = 320.0
+offset_bottom = 267.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)

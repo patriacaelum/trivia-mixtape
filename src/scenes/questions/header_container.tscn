@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvv6iv6ohm2qk"]
+
+[ext_resource type="Script" path="res://scenes/questions/header_container.gd" id="1_nxo8y"]
+
+[node name="HeaderContainer" type="HBoxContainer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+script = ExtResource("1_nxo8y")
+
+[node name="ColumnLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Column"
+
+[node name="VSeparator" type="VSeparator" parent="."]
+layout_mode = 2
+
+[node name="RowLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Row"

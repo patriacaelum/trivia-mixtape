@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://lo17cxaf24xy"]
+
+[ext_resource type="StyleBox" uid="uid://diqc3e4ym5aid" path="res://themes/stylebox.tres" id="1_065qx"]
+
+[resource]
+Button/styles/focus = ExtResource("1_065qx")
+Button/styles/hover = ExtResource("1_065qx")
+Button/styles/normal = ExtResource("1_065qx")

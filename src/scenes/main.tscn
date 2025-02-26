@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://bb2g2eka7rqpo"]
+
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_1gqov"]
+[ext_resource type="PackedScene" uid="uid://c0eldvamc853w" path="res://scenes/score_counter.tscn" id="1_268ae"]
+[ext_resource type="PackedScene" uid="uid://dvmpws51f43pc" path="res://scenes/question_grid.tscn" id="2_0ot5q"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1gqov")
+
+[node name="NextRoundButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -31.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Next Round"
+
+[node name="QuestionGrid" parent="." instance=ExtResource("2_0ot5q")]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = -193.0
+offset_top = -46.5
+offset_right = 193.0
+offset_bottom = 46.5
+
+[node name="TeamsLayer" type="CanvasLayer" parent="."]
+
+[node name="LeftTeam" parent="TeamsLayer" instance=ExtResource("1_268ae")]
+offset_right = 0.0
+offset_bottom = 0.0
+
+[node name="RightTeam" parent="TeamsLayer" instance=ExtResource("1_268ae")]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -112.0
+offset_right = 0.0
+offset_bottom = 0.0
+grow_horizontal = 0
+
+[node name="ColorRect" parent="TeamsLayer/RightTeam/LineEdit" index="0"]
+color = Color(0, 0, 1, 0.12549)
+
+[editable path="TeamsLayer/RightTeam"]
