@@ -42,7 +42,7 @@
                     {
                         "type": "zoom",
                         "question": "This is the question",
-                        "filename": ""
+                        "filename": "../../apples.jpg"
                     },
                     {
                         "type": "trivia",
@@ -64,30 +64,35 @@
                         "type": "trivia",
                         "description": "Styled in a straight leg silhouette with a high waist, these jeans are made rfom a cotton stretch blend for easy, comfortable wear.",
                         "question": "Calvin Klein Women's Jeans",
+                        "question_filename": "../../calvin_klein.png",
                         "answer": "$118.00"
                     },
                     {
                         "type": "trivia",
                         "description": "With the Playstation 5 Pro console, game creators can enhance their games with features like advanced ray tracing, super sharp image clarity for your 4k TV, and high frame rate gameplay.",
                         "question": "Playstation 5 Pro",
+                        "question_filename": "../../playstation5.png",
                         "answer": "$959.99"
                     },
                     {
                         "type": "trivia",
                         "description": "This Graceful PM hobo in classic Monogram canvas is a lightweight, roomy bag to carry every day. Natural cowhide leather detailing and golden hardware add a refined touch.",
                         "question": "Louis Vuitton Graceful PM bag",
+                        "question_filename": "../../louis_vuitton.png",
                         "answer": "$2380.00"
                     },
                     {
                         "type": "trivia",
                         "description": "The amplifier of life, elevating every moment. Seamless motion invigorates the heart. Superior craftsmanship excites the senses.",
                         "question": "2022 Rolls Royce Ghost",
+                        "question_filename": "../../rollsroyce.png",
                         "answer": "$369,998.00"
                     },
                     {
                         "type": "trivia",
                         "description": "A trilofy of epic fantasy adventure films directed by Peter Jackson, based on the novels by J. R. R. Tolkien.",
                         "question": "Lord of the Rings Trilogy",
+                        "question_filename": "../../lotr.png",
                         "answer": "$281 million"
                     }
                 ]
@@ -128,28 +133,33 @@
                 "description": "Guess the video game the GUI is from",
                 "questions": [
                     {
-                        "type": "trivia",
-                        "question": "This is the question",
+                        "type": "zoom",
+                        "question": "What game is this from?",
+                        "filename": "../../persona5.jpg",
                         "answer": "Persona 5"
                     },
                     {
-                        "type": "trivia",
-                        "question": "This is the question",
+                        "type": "zoom",
+                        "question": "What game is this from?",
+                        "filename": "../../plateup.png",
                         "answer": "PlateUp!"
                     },
                     {
                         "type": "trivia",
-                        "question": "This is the question",
+                        "question": "What game is this from?",
+                        "filename": "../../monster_hunter_world.png",
                         "answer": "Monster Hunter World"
                     },
                     {
                         "type": "trivia",
-                        "question": "This is the question",
+                        "question": "What game is this from?",
+                        "filename": "../../the_forest.png",
                         "answer": "The Forest"
                     },
                     {
                         "type": "trivia",
-                        "question": "This is the question",
+                        "question": "What game is this from?",
+                        "filename": "../../planet_crafter.png",
                         "answer": "Planet Crafter"
                     }
                 ]
@@ -158,28 +168,33 @@
                 "name": "Uhh, Zoom Out, Please",
                 "questions": [
                     {
-                        "type": "trivia",
-                        "question": "This is the question",
+                        "type": "zoom",
+                        "question": "What is this?",
+                        "filename": "../../apples.jpg",
                         "answer": "Apple"
                     },
                     {
-                        "type": "trivia",
-                        "question": "This is the question",
+                        "type": "zoom",
+                        "question": "What is this?",
+                        "filename": "../../calgary_tower.jpg",
                         "answer": "Calgary Tower"
                     },
                     {
-                        "type": "trivia",
-                        "question": "This is the question",
-                        "answer": "Dalmation"
+                        "type": "zoom",
+                        "question": "What is this?",
+                        "filename": "../../cat.jpg",
+                        "answer": "Cat"
                     },
                     {
-                        "type": "trivia",
-                        "question": "This is the question",
-                        "answer": "Foot"
+                        "type": "zoom",
+                        "question": "What is this?",
+                        "filename": "../../sailboat.jpg",
+                        "answer": "Sailboat"
                     },
                     {
-                        "type": "trivia",
-                        "question": "This is the question",
+                        "type": "zoom",
+                        "question": "What is this?",
+                        "filename": "../../yuqi.jpg",
                         "answer": "Bellybutton"
                     }
                 ]

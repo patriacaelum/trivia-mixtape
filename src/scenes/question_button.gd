@@ -2,6 +2,10 @@ class_name QuestionButton
 extends Button
 
 
+signal question_pressed(data: Dictionary)
+
+
+var _data: Dictionary = {}
 var _question: Question = null
 var _question_scene := {
     "category": preload("res://scenes/questions/category_question.tscn"),
@@ -15,6 +19,7 @@ func _ready() -> void:
 
 
 func load(data: Dictionary, column_label: String) -> void:
+    self._data = data
     var question_type: String = data.get("type")
 
     if not self._question_scene.has(question_type):
@@ -34,3 +39,5 @@ func load(data: Dictionary, column_label: String) -> void:
 func _on_pressed() -> void:
     self.set_disabled(true)
     self._question.set_visible(true)
+
+    self.question_pressed.emit(self._data)

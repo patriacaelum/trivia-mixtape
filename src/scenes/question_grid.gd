@@ -2,6 +2,9 @@ class_name QuestionGrid
 extends VBoxContainer
 
 
+signal question_pressed(data: Dictionary)
+
+
 @onready var _grid_container := %GridContainer
 @onready var _round_label := %RoundLabel
 
@@ -56,7 +59,12 @@ func _load_questions(column_data: Dictionary, column_number: int) -> void:
         question.text = str(self._base * (question_number + 1) * self._multiplier)
         question.load(question_data, self._labels[column_number].text)
         self._questions[column_number].append(question)
+        question.question_pressed.connect(self._on_question_pressed)
 
         question_number += 1
 
     self._nrows = max(question_number, self._nrows)
+
+
+func _on_question_pressed(data: Dictionary) -> void:
+    self.question_pressed.emit(data)

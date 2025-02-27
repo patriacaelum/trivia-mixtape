@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhomyil0xwjab"]
+
+[ext_resource type="Script" path="res://scenes/host_window.gd" id="1_j1bhu"]
+
+[node name="HostWindow" type="Window"]
+auto_translate_mode = 1
+title = "Host"
+initial_position = 1
+size = Vector2i(640, 480)
+script = ExtResource("1_j1bhu")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="QuestionLabel" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Question"
+
+[node name="DescriptionLabel" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Description"
+
+[node name="AnswerLabel" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Answer"

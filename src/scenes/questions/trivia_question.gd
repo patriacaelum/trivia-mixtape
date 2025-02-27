@@ -22,13 +22,17 @@ func load(data: Dictionary, column_label: String, row_label: String) -> void:
     self._question_label.text = data.get("question", "Question not found")
     self._answer_label.text = data.get("answer", "Answer not found")
 
-    var question_texture_file: String = data.get("question_texture", "")
+    var question_texture_file: String = data.get("question_filename", "")
     if question_texture_file:
-        self._question_texture.texture = load(question_texture_file)
+        var image: Image = Image.load_from_file(question_texture_file)
+        var texture: Texture2D = ImageTexture.create_from_image(image)
+        self._question_texture.texture = texture
 
-    var answer_texture_file: String = data.get("answer_texture", "")
+    var answer_texture_file: String = data.get("answer_filename", "")
     if answer_texture_file:
-        self._answer_texture.texture = load(answer_texture_file)
+        var image: Image = Image.load_from_file(answer_texture_file)
+        var texture: Texture2D = ImageTexture.create_from_image(image)
+        self._answer_texture.texture = texture
 
 
 func _on_answer_button_pressed() -> void:
