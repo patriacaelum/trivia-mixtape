@@ -38,6 +38,6 @@ func load(data: Dictionary, column_label: String) -> void:
 
 func _on_pressed() -> void:
     self.set_disabled(true)
-    self._question.set_visible(true)
+    self._question.show_question()
 
     self.question_pressed.emit(self._data)

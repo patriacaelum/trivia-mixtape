@@ -7,5 +7,6 @@
 offset_right = 8.0
 offset_bottom = 8.0
 theme = ExtResource("1_wvytw")
+theme_override_font_sizes/font_size = 18
 text = "Color"
 script = ExtResource("1_8yyui")

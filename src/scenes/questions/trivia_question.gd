@@ -35,6 +35,13 @@ func load(data: Dictionary, column_label: String, row_label: String) -> void:
         self._answer_texture.texture = texture
 
 
+func show_question() -> void:
+    super()
+
+    self._resize_texture(self._question_texture)
+    self._resize_texture(self._answer_texture)
+
+
 func _on_answer_button_pressed() -> void:
     self._answer_button.set_visible(false)
     self._answer_container.set_visible(true)

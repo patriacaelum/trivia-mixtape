@@ -53,6 +53,7 @@ anchor_bottom = 1.0
 offset_top = -31.0
 offset_right = 45.0
 grow_vertical = 0
+theme_override_font_sizes/font_size = 24
 text = "Back"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
@@ -71,6 +72,7 @@ grow_vertical = 2
 [node name="QuestionLabel" type="Label" parent="VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_font_sizes/font_size = 24
 text = "Question"
 horizontal_alignment = 1
 
@@ -92,6 +94,7 @@ alignment = 1
 [node name="LeftCategory" type="Label" parent="VBoxContainer/HBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_font_sizes/font_size = 24
 theme_override_styles/normal = SubResource("StyleBoxFlat_r22po")
 text = "Left"
 
@@ -101,6 +104,7 @@ layout_mode = 2
 [node name="RightCategory" type="Label" parent="VBoxContainer/HBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+theme_override_font_sizes/font_size = 24
 theme_override_styles/normal = SubResource("StyleBoxFlat_vap1k")
 text = "Right"
 horizontal_alignment = 2
